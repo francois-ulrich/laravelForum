@@ -11,10 +11,5 @@
 |
 */
 
-Route::get('/about', function () {
-    return view('pages.about');
-})->name("about-page");
-
-Route::get('/', function () {
-    return view('pages.home');
-});
+Route::get('/about', 'FrontEndController@home')->name('about');
+Route::get('/', 'FrontEndController@home')->name('home');

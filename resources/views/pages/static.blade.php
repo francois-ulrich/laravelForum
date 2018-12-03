@@ -2,7 +2,7 @@
 
 @section('content')
     @component("partials.heading")
-    Welcome
+        {{ $page_title }}
     @endcomponent
 
     @include('partials.nav')
