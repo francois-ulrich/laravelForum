@@ -2,11 +2,11 @@
 
 @section('content')
     @component("partials.heading")
-        {{ $page->title }}
+        Home
     @endcomponent
 
     <p>
-        {{ $page->content }}
+        Welcome!
     </p>
 
     @include('partials.nav')
